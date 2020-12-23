@@ -211,17 +211,18 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 0;
   background: url("../img/macbook-blue-bang.jpg") top center;
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100%;
+  padding-top: 51%;
 }
 
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
-  position: absolute;
+  position: contain;
   bottom: 0;
   top: 0;
   left: 0;
@@ -236,8 +237,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  transform:rotate(-8.5deg);
-  margin: 0 0 10px 0;
+  /* transform:rotate(-8.5deg); */
+  /* margin-top: 200px; */
+  /* margin: 0 0 10px 0; */
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -245,9 +247,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
-  transform:rotate(-8.5deg);
+  /* transform:rotate(-8.5deg); */
   color: #fff;
-  margin-bottom: 480px;
+  margin-bottom: 1600px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
