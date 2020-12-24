@@ -241,8 +241,6 @@ h1, h2, h3, h4, h5, h6 {
   top: 93px;
   -webkit-transform:rotate(-8.5deg);
   transform:rotate(-8.5deg);
-  /* margin-top: 300px; */
-  /* margin: 0 0 10px 0; */
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -252,7 +250,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero p {
   position: relative;
   top: 85px;
-  /* bottom: 100px; */
   -webkit-transform:rotate(-8.5deg);
   transform:rotate(-8.5deg);
   color: #fff;
