@@ -239,6 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   position: relative;
   top: 93px;
+  -webkit-transform:rotate(-8.5deg);
   transform:rotate(-8.5deg);
   /* margin-top: 300px; */
   /* margin: 0 0 10px 0; */
@@ -252,6 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   top: 85px;
   /* bottom: 100px; */
+  -webkit-transform:rotate(-8.5deg);
   transform:rotate(-8.5deg);
   color: #fff;
   margin-bottom: 1600px;
