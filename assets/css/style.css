@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   background: #149ddd;
   color: #fff;
-  transition: display 0.5s ease-in-out;
+  transition: display 0.0s ease-in-out;
   z-index: 99999;
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   color: #fff;
   background: #2eafec;
-  transition: background 0.2s ease-in-out;
+  transition: background 0.0s ease-in-out;
 }
 
 /*--------------------------------------------------------------
@@ -260,6 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
+  position: relative;
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
