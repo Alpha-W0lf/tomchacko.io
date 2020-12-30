@@ -231,8 +231,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  position: absolute;
-  z-index: 2;
+  position:absolute;
+  /* z-index: 2; */
   left: 22%;
   top: 14%;
   /* min-width: 1050px; */
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  position: relative;
+  position: relative;;
   /* top: 93px; */
   transform: skew(2.5deg) rotate(-8.5deg);
   font-size: 360%;
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: skew(2.5deg) rotate(-8.5deg);
   color: #fff;
   /* margin-bottom: 1600px; */
-  font-size: 140%;
+  font-size: 135%;
   font-family: "Poppins", sans-serif;
   width: 100%;
 }
